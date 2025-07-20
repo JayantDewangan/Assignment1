@@ -2,77 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>My Simple Webpage</title>
+    <title>Laundry Wallah / Laundry Mart</title>
   </head>
   <body>
     <header>
-      <h1 align="center">🌐 Welcome to My Website! 🌐</h1>
+      <h1 align="center">🧺 Welcome to Laundry Wallah! 🧼</h1>
     </header>
 
     <br />
 
     <main>
+      <!-- About Section -->
       <section id="about">
-        <h2>📌 About</h2>
+        <h2>📌 About Us</h2>
         <blockquote>
           <p>
-            Welcome to my website! This page is a demonstration of my HTML
-            skills. It includes text formatting, media embedding, and web links.
-            Here, you'll learn about the services I offer and see how basic web
-            elements are used to build a structured page. Whether you're curious
-            about web design or just visiting, I hope you find it engaging and
-            informative. Thanks for stopping by!
+            Laundry Wallah is a modern laundry service that brings freshness and ease to your daily life. Whether you're a student, professional, or homemaker, we offer express wash, doorstep delivery 🚚, and premium garment care 🌿. Our experts handle every item with care and efficiency, using advanced machines and eco-friendly detergents. With simple pricing 💸 and friendly service 😄, we’re redefining the traditional dhobi experience for the urban lifestyle.
           </p>
         </blockquote>
       </section>
 
       <hr />
 
-      <section id="team">
-        <h2>👥 Our Team</h2>
+      <!-- Image Section -->
+      <section id="facility">
+        <h2>🧹 Our Facility</h2>
         <figure>
           <img
-            src="https://media.istockphoto.com/id/1350474131/photo/business-team-portrait.jpg?s=612x612&w=0&k=20&c=_rwVn8lkmzXc-_Q5tSyH-Jt0tt_acwxvXVYCckg8v0M="
-            alt="Sample Image"
+            src="./washing-machine.png"
+            alt="Modern Laundry Facility"
             width="420"
-            height="300"
+            height="420"
           />
           <figcaption>
-            <em>Meet our dedicated and talented team!</em>
+            <em>Where clothes get the love they deserve! 💖</em>
           </figcaption>
         </figure>
       </section>
 
       <br />
 
+      <!-- Services Section -->
       <section id="services">
-        <h2>🛠️ Our Services</h2>
+        <h2>🛎️ Our Services</h2>
         <ul type="square">
-          <li><strong>Web Design</strong></li>
-          <li><strong>Content Writing</strong></li>
-          <li><strong>SEO Optimization</strong></li>
-          <li><strong>Technical Support</strong></li>
+          <li><strong>Washing and Drying 🌀</strong></li>
+          <li><strong>Ironing and Folding 👕</strong></li>
+          <li><strong>Dry Cleaning 🧴</strong></li>
+          <li><strong>Stain Removal 🚫</strong></li>
+          <li><strong>Express Services ⚡</strong></li>
+          <li><strong>Special Garment Care 👗</strong></li>
         </ul>
       </section>
 
       <br />
 
-      <section id="intro">
-        <h2>🎥 Watch Our Introduction</h2>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/UXYAe8_UfB8?si=76yywcdSP5l09fMa"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        ></iframe>
-      </section>
-
-      <br />
-
+      <!-- Price List Section -->
       <section id="prices">
         <h2>💰 Price List</h2>
         <table border="1" cellpadding="8">
@@ -81,26 +66,37 @@
             <th>Price</th>
           </tr>
           <tr>
-            <td>Web Design</td>
-            <td>$300</td>
+            <td>Washing and Drying</td>
+            <td>Rs 50.00</td>
           </tr>
           <tr>
-            <td>Content Writing</td>
-            <td>$100</td>
+            <td>Ironing and Folding</td>
+            <td>Rs 30.00</td>
           </tr>
           <tr>
-            <td>SEO Optimization</td>
-            <td>$150</td>
+            <td>Dry Cleaning</td>
+            <td>Rs 75.00</td>
           </tr>
           <tr>
-            <td>Technical Support</td>
-            <td>$50/month</td>
+            <td>Stain Removal</td>
+            <td>Rs 50.00</td>
+          </tr>
+          <tr>
+            <td>Express Services</td>
+            <td>Rs 200.00</td>
+          </tr>
+          <tr>
+            <td>Special Garment Care</td>
+            <td>Rs 100.00</td>
           </tr>
         </table>
       </section>
+
       <br /><br />
+
+      <!-- Booking Form Section -->
       <section id="info">
-        <h2>📨 Enter your details</h2>
+        <h2>📨 Book Your Service</h2>
         <form>
           <label for="name">Name:</label>
           <input
@@ -108,6 +104,7 @@
             id="name"
             name="name"
             placeholder="Enter your full name"
+            required
           /><br /><br />
 
           <label for="email">Email:</label>
@@ -115,7 +112,8 @@
             type="email"
             id="email"
             name="email"
-            placeholder="Enter your mail id"
+            placeholder="Enter your email"
+            required
           /><br /><br />
 
           <label for="phone">Phone:</label>
@@ -123,17 +121,20 @@
             type="tel"
             id="phone"
             name="phone"
-            placeholder="Enter phone number"
+            placeholder="Enter your phone number"
+            required
           /><br /><br />
 
           <input type="submit" value="Submit" />
         </form>
       </section>
+
       <br /><br />
       <hr />
       <br />
     </main>
 
+    <!-- Footer Section -->
     <footer>
       <h2 id="connectWithMe">📞 Contact with US:</h2>
       <p>
@@ -160,7 +161,9 @@
           <i>9876543210</i>
         </a>
       </p>
-      <p align="center"><i>&copy; 2025 My Website. All rights reserved.</i></p>
+      <p align="center">
+        <i>&copy; 2025 Laundry Wallah. All rights reserved.</i>
+      </p>
     </footer>
   </body>
 </html>
